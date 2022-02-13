@@ -1,3 +1,8 @@
+:root {
+    --font-color: rgb(30, 102, 130);
+    --border-color: #d4f2fa;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +16,7 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(30, 102, 130);
+    color: var(--font-color);
 }
 
 header nav {
@@ -20,9 +25,8 @@ header nav {
 }
 
 header h1 {
-    background-color: #d4f2fa;
-    width: 328px;
-    padding: 5px 0 5px 55px;
+    background-color: var(--border-color);
+    padding: 5px 10px 10px 30px;
     font-size: 40px;
 }
 
@@ -38,29 +42,34 @@ header nav ul li a {
     padding: 10px 10px 5px 10px;
     font-weight: bold;
     text-decoration: none;
-    border-bottom: 5px solid rgb(30, 102, 130);
+    border-bottom: 5px solid var(--font-color);
     margin-right: 25px;
-    color: rgb(30, 102, 130);
+    color: var(--font-color);
 }
 
 .hero {
+    display: flex;
     background-image: url(./Images/HeaderBckgd.png);
     background-size: cover;
     background-position: center;
-    display: flex;
-    flex-wrap: wrap;
-    line-height: 4;
-    justify-content: flex-end;
+    line-height: 6;
 }
 
-.hero h2 {
-    padding: 70px 50px 0 0;
+.hero1 {
+    width: 70%;
+}
+
+.heroH2 {
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-    font-size: 35px;
-    color: rgb(30, 102, 130);
+    color: var(--font-color);
+    font-size: 25px;
 }
 
+.heroH2 h2 {
+    position: relative;
+    top: 20%;
+}
 
 .intro {
    padding: 20px 35px 20px 0;
@@ -74,11 +83,51 @@ header nav ul li a {
     margin: 30px 30px 30px 90px;
 }
 
-.intro h1 {
+.intro h2 {
     width: 80%;
     font-size: 50px;
     margin: 30px 20px 30px 100px;
     text-align: right;
     border-right: 5px solid black;
     padding: 0 20px 52px 0;
+}
+
+.projects {
+    padding: 20px 35px 20px 0;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+ }
+
+ .projects h2 {
+    width: 80%;
+    font-size: 50px;
+    margin: 30px 32px 30px 100px;
+    text-align: right;
+    border-right: 5px solid black;
+    padding: 0 20px 52px 0;
+ }
+
+ .parent {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     width: 55%;
+     margin: 30px 138px 0px 90px;
+ }
+
+ .child1 {
+     flex: 2 100%;
+     background-image: url(./Images/HeaderBckgd.png);
+     height: 100%;
+     padding: 285px 0 0 0;
+     border: 5px solid var(--border-color);
+}
+
+.child1 h3 {
+    background-color: var(--border-color);
+    width: 125px;
+    padding: 10px 5px 10px 13px;
+    font-weight: lighter;
 }
