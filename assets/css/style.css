@@ -43,16 +43,17 @@ header nav ul li a {
     font-weight: bold;
     text-decoration: none;
     border-bottom: 5px solid var(--font-color);
-    margin-right: 25px;
+    margin-right: 35px;
     color: var(--font-color);
 }
 
 .hero {
     display: flex;
+    flex-wrap: wrap;
     background-image: url(./Images/HeaderBckgd.png);
     background-size: cover;
     background-position: center;
-    line-height: 6;
+    line-height: 12em;
 }
 
 .hero1 {
@@ -69,65 +70,86 @@ header nav ul li a {
 .heroH2 h2 {
     position: relative;
     top: 20%;
+    left: 10%;
+}
+
+.H2 {
+    font-size: 30px;
+    text-align: right;
+    padding: 10px 25px 10px 30px;
+}
+
+.H2 h2 {
+    padding: 0 0 0 35px;
 }
 
 .intro {
-   padding: 20px 35px 20px 0;
    display: flex;
-   justify-content: space-between;
+   margin: 35px 35px 0 35px;
 }
 
-.intro p {
-    width: 85%;
+.introP {
     font-size: 18px;
-    margin: 30px 30px 30px 90px;
+    padding: 10px 0 10px 50px;
+    border-left: 5px solid black;
 }
 
-.intro h2 {
-    width: 80%;
-    font-size: 50px;
-    margin: 30px 20px 30px 100px;
-    text-align: right;
-    border-right: 5px solid black;
-    padding: 0 20px 52px 0;
+.introP p {
+    margin-right: 30px;
+    padding-right: 30px;
 }
+
 
 .projects {
-    padding: 20px 35px 20px 0;
     display: flex;
-    justify-content: start;
     flex-wrap: wrap;
- }
-
- .projects h2 {
-    width: 80%;
-    font-size: 50px;
-    margin: 30px 32px 30px 100px;
-    text-align: right;
-    border-right: 5px solid black;
-    padding: 0 20px 52px 0;
- }
-
- .parent {
-     display: flex;
-     flex-direction: row;
-     flex-wrap: wrap;
-     justify-content: space-between;
-     width: 55%;
-     margin: 30px 138px 0px 90px;
- }
-
- .child1 {
-     flex: 2 100%;
-     background-image: url(./Images/HeaderBckgd.png);
-     height: 100%;
-     padding: 285px 0 0 0;
-     border: 5px solid var(--border-color);
+    margin: 35px 0 0 45px;
 }
 
-.child1 h3 {
-    background-color: var(--border-color);
-    width: 125px;
-    padding: 10px 5px 10px 13px;
-    font-weight: lighter;
+.parent {
+    border-left: 5px solid black;
+    padding: 10px 10px 10px 50px;
+}
+
+.child1 {
+    background-image: url(./Images/MERN.png);
+    background-position: center;
+    width: 60em;
+    height: 30em;
+}
+
+.projectgrp {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.child2 {
+    background-image: url(./Images/InspoIo.png);
+    background-position: left;
+    width: 30em;
+    height: 10em;
+}
+
+.child3{
+    background-image: url(./Images/MERN.png);
+    background-position: center;
+    width: 30em;
+    height: 10em;
+}
+
+.child4 {
+    background-image: url(./Images/MERN.png);
+    background-position: center;
+    width: 30em;
+    height: 10em;
+}
+
+.child5 {
+    background-image: url(./Images/MERN.png);
+    background-position: center;
+    width: 30em;
+    height: 10em;
 }
