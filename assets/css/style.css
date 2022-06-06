@@ -136,29 +136,29 @@ header nav ul li a {
 .child2 {
     background-image: url(./Images/InspoIo.png);
     background-position: left;
-    width: 29em;
+    width: 28em;
     height: 10em;
 }
 
 .child3{
-    background-image: url(./Images/MERN.png);
+    background-image: url(./Images/Ourspace.png);
     background-position: center;
-    width: 29em;
+    width: 28em;
     height: 10em;
     margin-left: 30px;
 }
 
 .child4 {
-    background-image: url(./Images/MERN.png);
+    background-image: url(./Images/Dreadit.png);
     background-position: center;
-    width: 29em;
+    width: 28em;
     height: 10em;
 }
 
 .child5 {
     background-image: url(./Images/MERN.png);
     background-position: center;
-    width: 29em;
+    width: 28em;
     height: 10em;
     margin-left: 30px;
 }
