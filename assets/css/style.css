@@ -42,7 +42,7 @@ header nav ul li a {
     padding: 10px 10px 5px 10px;
     font-weight: bold;
     text-decoration: none;
-    border-bottom: 5px solid var(--font-color);
+    border-bottom: 5px solid black;
     margin-right: 35px;
     color: var(--font-color);
 }
@@ -91,7 +91,7 @@ header nav ul li a {
 .introP {
     font-size: 18px;
     padding: 10px 0 10px 50px;
-    border-left: 5px solid black;
+    border-left: 5px solid var(--font-color);
 }
 
 .introP p {
@@ -99,16 +99,30 @@ header nav ul li a {
     padding-right: 30px;
 }
 
-
 .projects {
     display: flex;
     flex-wrap: wrap;
     margin: 35px 0 0 45px;
+    color: var(--font-color);
 }
 
-.parent {
+.projectsParent {
     border-left: 5px solid black;
     padding: 10px 10px 10px 50px;
+}
+
+.childRow1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 20px 20px 0;
+}
+
+.childRow2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 20px 20px 0;
 }
 
 .child1 {
@@ -118,38 +132,33 @@ header nav ul li a {
     height: 30em;
 }
 
-.projectgrp {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-
-}
 
 .child2 {
     background-image: url(./Images/InspoIo.png);
     background-position: left;
-    width: 30em;
+    width: 29em;
     height: 10em;
 }
 
 .child3{
     background-image: url(./Images/MERN.png);
     background-position: center;
-    width: 30em;
+    width: 29em;
     height: 10em;
+    margin-left: 30px;
 }
 
 .child4 {
     background-image: url(./Images/MERN.png);
     background-position: center;
-    width: 30em;
+    width: 29em;
     height: 10em;
 }
 
 .child5 {
     background-image: url(./Images/MERN.png);
     background-position: center;
-    width: 30em;
+    width: 29em;
     height: 10em;
+    margin-left: 30px;
 }
